@@ -73,7 +73,7 @@ jobs:
           sudo docker pull babinich/babinich
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 babinich/babinich
+          sudo docker run --rm -d -p 8000:8000 babinich/babinich
 
 
       
